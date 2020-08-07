@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container align-items-center d-flex justify-content-between my-4 main">
+        <div class="container hi">
+            <header class="text-center text-light my-4">
+                <h1 class="mb-4">Todo List</h1>
+                <form class="search">
+                    <input type="text" name="search" class="form-control m-auto" placeholder="Search your todo">
+                </form>
+            </header>
+            <ul class="list-group todos mx-auto text-light ">
+                <!-- <li class="list-group-item d-flex justify-content-between align-items-center ">
+                    <span>Code till 1:30 PM</span>
+                    <i class="fa fa-trash-o delete pl-3" aria-hidden="true"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>Code till 1:30 PM</span>
+                    <i class="fa fa-trash-o delete pl-3" aria-hidden="true"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center ">
+                    <span>yello</span>
+                    <i class="fa fa-trash-o delete pl-3" aria-hidden="true"></i>
+                </li> -->
+            </ul>
+            <div class="container-sm">
+                <form class="add text-center-my-4 d-flex">
+                    
+                        <div class='input-group date my-2 p-2' id='datetimepicker3'>
+                            <input type='time' name="time" id="gtime" class="form-control" />
+                        </div>
+                    
+                    <!-- <label class="text-light my-2">Add your todos</label> -->
+                    <input type="text" name="add" class="form-control m-auto" placeholder="Add your todos"/>
+                </form>
+            </div>
+            
+        </div>
+        <div class="container align-items-center justify-content-between mx-auto">
+            <div class="clock"></div>
+            <div class="alert alert-success alert-boy display-it mx-auto text-align-center" role="alert"></div>
+            <div id="put"></div>
+        </div>
+    </div>
+    <script src="object.js"></script>
+    <script src="todate.js"></script>
+    <script src="date.js"></script>
+</body>
+</html>

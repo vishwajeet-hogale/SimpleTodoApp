@@ -1,0 +1,49 @@
+body{
+    background: #352f5b;
+}
+.container.hi{
+    max-width:400px;
+}
+input[type=text],input[type=text]:focus{
+    color:black;
+    border: none;
+    background: rgba(0,0,0,0,2);
+    max-width: 400px;
+}
+.todos li{
+    background: #423a64;
+}
+.delete{
+    cursor:pointer;
+}
+.add{
+    text-align: center;
+    margin-top: 6;
+}
+.filtered{
+    display: none !important;
+}
+.clock{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clock span{
+    padding: 10px;
+    background:  #423a64;
+
+}
+.alert-boy{
+    max-width: 200px;
+}
+.alert-b{
+    max-width: 200px;
+}
+.display-it{
+    display:none !important;
+}
+.display{
+    display:none !important;
+}
